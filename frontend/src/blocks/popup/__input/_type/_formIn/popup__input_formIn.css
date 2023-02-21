@@ -1,0 +1,12 @@
+.popup__input_formIn {
+	background-color: inherit;
+	color: #cccccc;
+	border: 2px solid #cccccc;
+	border-style: none none solid none;
+}
+.popup__input_formIn::placeholder {
+	color: #cccccc;
+}
+.popup__input_formIn:last-of-type {
+	margin-top: 15px;
+}

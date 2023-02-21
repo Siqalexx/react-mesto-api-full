@@ -1,0 +1,7 @@
+.profile__container {
+	background-image: url(../../../images/avatarPencel.svg);
+	background-size: 26px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 30px;
+}
