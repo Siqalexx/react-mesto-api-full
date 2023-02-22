@@ -107,7 +107,7 @@ class Api {
 	}
 }
 const api = new Api({
-	baseUrl: 'http://api.ivanov-social.nomoredomains.work/',
+	baseUrl: 'https://api.ivanov-social.nomoredomains.work/',
 	headers: {
 		'Content-Type': 'application/json',
 	},

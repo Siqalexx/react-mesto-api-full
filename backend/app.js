@@ -38,7 +38,7 @@ app.post(
       password: Joi.string().required().min(6),
     }),
   }),
-  login,
+  login
 );
 
 app.post(
@@ -52,7 +52,7 @@ app.post(
       password: Joi.string().required().min(6),
     }),
   }),
-  setUser,
+  setUser
 );
 
 app.use('/users', auth, userRouter);
@@ -75,7 +75,7 @@ app.use((err, req, res, next) => {
     });
   } else {
     res.status(status).send({
-      message: 'Ошибка сервера',
+      message: 'На сервере произошла ошибка',
     });
     console.log(message);
   }

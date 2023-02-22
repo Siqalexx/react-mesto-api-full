@@ -1,6 +1,6 @@
 class Auth {
 	constructor() {
-		this._baseUrl = 'http://api.ivanov-social.nomoredomains.work/';
+		this._baseUrl = 'https://api.ivanov-social.nomoredomains.work/';
 	}
 	_getResponseData(res) {
 		if (!res.ok) {
