@@ -125,6 +125,8 @@ const login = (req, res, next) => {
             .cookie('jwt', token, {
               maxAge: 3600000,
               httpOnly: true,
+              secure: true,
+              sameSite: 'None', //мне кажется это очень странное решение, и оно может стать уязвимостью сайта
             })
             .send({ message: 'cookie is download' });
         })
